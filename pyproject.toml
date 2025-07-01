@@ -1,13 +1,16 @@
 [project]
-name = "classification-project"
+name = "classification1"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "Marco"}
+    {name = "Your Name",email = "you@example.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "torch (>=2.7.1,<3.0.0)",
+    "torchvision (>=0.22.1,<0.23.0)",
+    "torchaudio (>=2.7.1,<3.0.0)"
 ]
 
 
